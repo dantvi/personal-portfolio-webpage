@@ -110,7 +110,6 @@ nav a:hover {
 }
 
 .card:hover {
-    /* background: var(--main-black); */
     transform: scale(1.05);
     box-shadow: 0 4px 8px 0 rgba(0,0,0,1);
  }
@@ -139,3 +138,10 @@ nav a:hover {
     transform: scale(1.2);
     color: var(--main-black);
  }
+
+ /* Media Query */
+@media screen and (max-width: 760px) {
+    .card {
+        place-self: center;
+    }
+}
