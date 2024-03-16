@@ -15,6 +15,7 @@ body {
     margin: 0;
     min-height: 100vh;
     font-family: Comfortaa, sans-serif;
+    background-color: var(--main-blue);
 }
 
 section {
@@ -90,10 +91,6 @@ nav a:hover {
     justify-content: center;
 }
 
-.projects {
-    background-color: var(--main-blue);
-}
-
 .card-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -122,4 +119,17 @@ nav a:hover {
 
  .project-title {
     font-size: 25px;
+ }
+
+ .contact-container {
+    text-align: center;
+ }
+
+ .fa-brands {
+    font-size: 3rem;
+ }
+
+ .fa-brands:hover {
+    transform: scale(1.2);
+    color: var(--main-black);
  }
