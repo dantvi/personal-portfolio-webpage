@@ -2,9 +2,6 @@
 
 :root {
     --main-white: #f0f0f0;
-    --main-red: #be3144;
-    --main-blue: #45567d:
-    --main-gray: #303841;
     --main-black: #000000;
 }
 
@@ -17,12 +14,21 @@ body {
     margin: 0;
     min-height: 100vh;
     font-family: Comfortaa, sans-serif;
-    background-color: var(--on-background);
+}
+
+section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 h1 {
     font-family: Kaushan Script, sans-serif;
     font-size: 100px;
+    margin-bottom: 0;
+    text-align: center;
 }
 
 /* Navigation */
@@ -32,7 +38,6 @@ nav {
     height: 60px;
     width: 100vw;
     font-family: Oswald, sans-serif;
-    background: var(--main-red);
 }
 
 li {
@@ -62,4 +67,15 @@ a:hover {
 
 .nav-link {
     margin: 0 15px;
+}
+
+/* About section */
+.about {
+    background: url(./img/bg-about.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
 }
