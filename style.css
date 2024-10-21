@@ -20,3 +20,6 @@ body {
     background-color: var(--primary-dark-blue);
 }
 
+.large-icon {
+    font-size: 2rem;
+}
