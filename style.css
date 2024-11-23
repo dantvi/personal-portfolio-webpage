@@ -20,6 +20,19 @@ body {
     background-color: var(--primary-dark-blue);
 }
 
+#about-card {
+    border: none;
+}
+
+#profile-img {
+    display: flex;
+    justify-content: end;
+}
+
+
+
+
+
 .large-icon {
     font-size: 2rem;
 }
