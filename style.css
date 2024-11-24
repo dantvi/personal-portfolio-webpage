@@ -20,6 +20,15 @@ body {
     background-color: var(--primary-dark-blue);
 }
 
+#navigation {
+    background-color: var(--primary-dark-blue) !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
 #about-card {
     border: none;
 }
