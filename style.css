@@ -40,7 +40,7 @@ body {
 }
 
 #about-card {
-    border: none;
+    transform: none;
 }
 
 #profile-img {
@@ -48,7 +48,18 @@ body {
     justify-content: end;
 }
 
+.card {
+    border: none;
+}
 
+.card:hover {
+    transform: scale(1.01);
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-evenly;
+}
 
 
 
